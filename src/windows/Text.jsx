@@ -20,7 +20,7 @@ const TextFile = () => {
       <div className="p-6">
         {image && (
           <div className="mb-4">
-            <img src={image} alt={name} className="max-w-full rounded" />
+            <img src={image} alt={name} className="w-30 rounded-full" />
           </div>
         )}
 
